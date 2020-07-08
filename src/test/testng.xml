@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<!--        verbose="1" thread-count="1" parallel="tests" configfailurepolicy="continue"-->
+<suite name="TwitterSuite"  >
+
+    <test name="TwitterTests"  >
+        <classes>
+           <class name="TestRunner"/>
+        </classes>
+    </test>
+
+</suite>
